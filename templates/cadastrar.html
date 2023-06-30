@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cadastrar Pets</h1>
+    <form action="/cadastrar/pets" method="POST">
+        <div><label for="nome_pet">Nome do pet:</label>
+            <input type="text" name="nome_pet" autofocus placeholder="nome do pet...">
+        </div>
+        <div><label for="idade_pet">Idade aproximada:</label>
+            <input type="number" name="idade_pet" placeholder="Ex: 2.5">
+        </div>
+        <div><label for="sexo_pet">Sexo do pet:</label>
+            <input type="text" name="sexo_pet" placeholder="Ex: masculino">
+        </div>
+        <div><label for="raca_pet">Raça do pet:</label>
+            <input type="text" name="raca_pet" placeholder="Ex: Pitbul">
+        </div>
+        <div><label for="peso_pet">Peso:</label>
+            <input type="number" name="peso_pet" placeholder="Ex: 40.5">
+        </div>
+        <div><label for="tamanho_pet">Porte: </label>
+            <input type="text" name="tamanho_pet" placeholder="Ex: pequeno">
+        </div>
+        <div><label for="doenca_pet">Doença:</label>
+            <input type="text" name="doenca_pet" placeholder="Ex: Febre">
+        </div>
+        <div><label for="obs_pet">Observação:</label>
+            <input type="text" name="obs_pet" placeholder="Ex: Observação...">
+        </div>
+        <div><input type="submit" value="Enviar"></div>
+    </form>
+    
+</body>
+</html>
